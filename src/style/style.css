@@ -1,4 +1,41 @@
 body {
     background-color: #000000;
     color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Aligning the text to the right */
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: beige; /* You can change the color as per your design */
+}
+
+nav a:hover {
+    background-color: beige; /* You can change the background color on hover */
+    color : #000000; /* You can change the text color on hover */
+}
+
+.logo {
+    position: absolute;
+    top : 0;
+    padding: 10px;
+    height: 150px;
+}
+
+section {
+    margin-top: 150px;
+    padding: 20px;
 }
