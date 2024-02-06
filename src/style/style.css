@@ -39,3 +39,15 @@ section {
     margin-top: 150px;
     padding: 20px;
 }
+
+.dishwasher {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.maon_picture {
+    height: 100%;
+    position: relative;
+}
